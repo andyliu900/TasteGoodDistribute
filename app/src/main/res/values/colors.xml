@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e5261d</color>
+    <color name="colorPrimaryDark">#d9281f</color>
+    <color name="colorAccent">#999999</color>
+
+    <color name="primaryTextColor">#484848</color>
+    <color name="secondTextColor">#666666</color>
+    <color name="bgColor">#EEEEEE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#999999</color>
+    <color name="whiteGray">#AAAAAA</color>
+    <color name="navHeaderBg">#f2f2f2</color>
+    <color name="mainBottomBg">#f7f7f7</color>
+
+    <color name="itemPressColor">#ffe8ecef</color>
+    <color name="itemOrderRecordIndicatorColor">#e65c17</color>
+    <color name="itemOrderRecordHeaderColor">#ededed</color>
+
+    <color name="sheelPressColor">#19000000</color>
+</resources>

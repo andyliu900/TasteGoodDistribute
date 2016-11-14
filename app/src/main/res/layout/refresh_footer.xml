@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pull_to_refresh_header"
+    android:layout_width="fill_parent"
+    android:layout_height="44dp">
+
+    <TextView
+        android:id="@+id/pull_to_load_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/pull_to_refresh_footer_refreshing_label"
+        android:textColor="@color/secondTextColor"
+        android:textSize="14sp" />
+
+    <ProgressBar
+        android:id="@+id/pull_to_load_progress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dip"
+        android:layout_toLeftOf="@id/pull_to_load_text"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/pull_to_refresh_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="数据已经全部加载完毕"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

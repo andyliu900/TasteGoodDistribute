@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/customerInfoLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="顾客信息"
+            android:textColor="@color/whiteGray"
+            android:textSize="15sp"
+            android:drawableLeft="@mipmap/ic_orderstar"
+            android:drawablePadding="5dp"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/customerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_toRightOf="@id/customerInfoLabel"
+            android:layout_marginLeft="20dp"
+            android:text="你好"/>
+
+        <TextView
+            android:id="@+id/customerPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_toRightOf="@id/customerName"
+            android:layout_marginLeft="20dp"
+            android:text="1231214"/>
+
+        <TextView
+            android:id="@+id/customerLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/whiteGray"
+            android:layout_below="@id/customerName"
+            android:layout_marginTop="10dp"
+            android:layout_alignStart="@id/customerName"
+            android:layout_alignLeft="@id/customerName"
+            android:text="1231214"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/distributeInfoLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="店铺信息"
+            android:drawableLeft="@mipmap/ic_orderstar"
+            android:drawablePadding="5dp"
+            android:textColor="@color/whiteGray"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/storeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_toRightOf="@id/distributeInfoLabel"
+            android:layout_marginLeft="10dp"
+            android:text="你好"/>
+
+        <TextView
+            android:id="@+id/storePhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_marginRight="10dp"
+            android:drawablePadding="10dp"
+            android:text="联系商家"
+            android:drawableRight="@mipmap/ic_phone"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/storeLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_location"
+            android:layout_below="@id/storeName"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@id/storeName"
+            android:textSize="15sp"
+            android:textColor="@color/secondTextColor"
+            android:drawablePadding="10dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
